@@ -21,7 +21,7 @@ helloworld代码：
 
 
 activity代码:
-
+```
 public class MainActivity extends AppCompatActivity {
     public static final String TAG="lifecycle";
     @Override
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             Log.d(TAG,"onrestart");
         }
 }
-
+```
 
 结果：
         
